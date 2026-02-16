@@ -1,7 +1,7 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 
 export const UseStatdemo1 = () => {
-    
+
     const[count,setcount]=useState(0);
 
     const increaseCount=()=>{
