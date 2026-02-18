@@ -33,26 +33,34 @@ export const NavBar = () => {
                             <Link className='nav-link' to={"/usestate"}>UseStatdemo1</Link>
                         </li>
 
-                        <li class="nav-item">
-                            <Link class="nav-link" to="/formdemo">
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/formdemo">
                                 formdemo
                             </Link>
                         </li>
-                        <li class="nav-item">
-                            <Link class="nav-link" to="/formdemo2">
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/formdemo2">
                                 formdemo2
                             </Link>
                         </li>
-                        <li class="nav-item">
-                            <Link class="nav-link" to="/formdemo3">
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/formdemo3">
                                 formdemo3
                             </Link>
                         </li>
-                        <li class="nav-item">
-                            <Link class="nav-link" to="/formdemo4">
-                                formdemo4
+                       
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/apidemo1">
+                                ApiDemo1
                             </Link>
                         </li>
+
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/apitask">
+                                ApiTask
+                            </Link>
+                        </li>
+
 
                     </ul>
 
