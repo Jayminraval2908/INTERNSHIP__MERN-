@@ -21,6 +21,8 @@ import { ApiTask2 } from './components/api/ApiTask2';
 import { ApiTask3 } from './components/api/ApiTask3';
 import { OmdbSearch } from './components/api/OmdbSearch';
 import { MovieDetail } from './components/api/MovieDetail';
+import { Apidemo2 } from './components/api/Apidemo2';
+import { Apidemo3 } from './components/api/Apidemo3';
 
 
 
@@ -43,11 +45,13 @@ function App() {
         <Route path='/formdemo3' element={<FormDemo3/>}></Route>
         <Route path='/formdemo4' element={<FormDemo4/>}></Route>
         <Route path='/apidemo1' element={<Apidemo1/>}></Route>
+        <Route path='/apidemo2' element={<Apidemo2/>}></Route>
         <Route path='/apitask' element={<ApiTask/>}></Route>
         <Route path='/apitask2' element={<ApiTask2/>}></Route>
         <Route path='/apitask3' element={<ApiTask3/>}></Route>
         <Route path='/omdbsearch' element={<OmdbSearch/>}></Route>
         <Route path='/movie/:id' element={<MovieDetail/>}></Route>
+        <Route path='/apidemo3' element={<Apidemo3/>}></Route>
       </Routes>
 
     </div>
