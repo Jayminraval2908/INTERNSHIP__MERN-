@@ -17,6 +17,10 @@ import {FormDemo3} from './components/input/FormDemo3';
 import {FormDemo4} from './components/input/FormDemo4';
 import { Apidemo1 } from './components/api/Apidemo1';
 import { ApiTask } from './components/api/ApiTask';
+import { ApiTask2 } from './components/api/ApiTask2';
+import { ApiTask3 } from './components/api/ApiTask3';
+import { OmdbSearch } from './components/api/OmdbSearch';
+import { MovieDetail } from './components/api/MovieDetail';
 
 
 
@@ -40,6 +44,10 @@ function App() {
         <Route path='/formdemo4' element={<FormDemo4/>}></Route>
         <Route path='/apidemo1' element={<Apidemo1/>}></Route>
         <Route path='/apitask' element={<ApiTask/>}></Route>
+        <Route path='/apitask2' element={<ApiTask2/>}></Route>
+        <Route path='/apitask3' element={<ApiTask3/>}></Route>
+        <Route path='/omdbsearch' element={<OmdbSearch/>}></Route>
+        <Route path='/movie/:id' element={<MovieDetail/>}></Route>
       </Routes>
 
     </div>

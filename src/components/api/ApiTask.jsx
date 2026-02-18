@@ -25,7 +25,7 @@ export const ApiTask = () => {
                 <tr>
                     <th>ID</th>
                     <th>Author</th>
-                    <th>QUOTE</th>
+                    <th>QUOTES</th>
                 </tr>
             </thead>
 

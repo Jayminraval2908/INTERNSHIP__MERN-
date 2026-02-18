@@ -61,6 +61,25 @@ export const NavBar = () => {
                             </Link>
                         </li>
 
+                         <li className="nav-item">
+                            <Link className="nav-link" to="/apitask2">
+                                ApiTask2
+                            </Link>
+                        </li>
+
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/apitask3">
+                                ApiTask3
+                            </Link>
+                        </li>
+
+                          <li className="nav-item">
+                            <Link className="nav-link" to="/omdbsearch">
+                               IMDB PAGE
+                            </Link>
+                        </li>
+
+
 
                     </ul>
 
